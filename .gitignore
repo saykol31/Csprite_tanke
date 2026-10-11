@@ -1,0 +1,4 @@
+bin/
+build/
+demo_tanque
+*.o
