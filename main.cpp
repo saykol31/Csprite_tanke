@@ -8,7 +8,7 @@
 #include <vector>
 #include <glm/glm.hpp>
 
-int main(int argc, char* argv[]) {
+int main() {
     // Crear ventana
     VentanaGris3D ventana;
     if (!ventana.iniciar("Demo Tanque con Tiles y Cámaras", 800, 600)) {

@@ -93,9 +93,9 @@ CSprite::CSprite(float px, float py, float pz)
       sx(1), sy(1), sz(1),
       rx(0), ry(0), rz(0),
       ry_torre(0), rx_canon(0),
+      r(0.2f), g(0.5f), b(0.2f), a(1.0f),
       vx(0), vy(0), vz(0),
-      vrx(0), vry(0), vrz(0),
-      r(0.2f), g(0.5f), b(0.2f), a(1.0f) {}
+      vrx(0), vry(0), vrz(0) {}
 
 // --- Captura teclas ---
 void CSprite::handleInput(const Uint8* keyState) {
